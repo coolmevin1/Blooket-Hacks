@@ -14,7 +14,7 @@ obj.gold2 = amount;
 // Console Message Code
 function console_msg(file, state) {
    if (!state) {
-       if (window.location.href.indexOf("blooket.com") > -1 && window.location.host !== "www.blooket.com" && window.location.host !== "id.blooket.com") {
+       if (window.location.href.indexOf("blooket.com") > -1 && winoow.location.host !== "www.blooket.com" && window.location.host !== "id.blooket.com") {
            console_msg(file, true);
            return true;
        } else if (window.location.host === "www.blooket.com" || window.location.host === "id.blooket.com") {
@@ -27,18 +27,18 @@ function console_msg(file, state) {
    } else {
        console.log("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"); // Spacing: 60
        var style = 'color: yellow; -webkit-text-stroke: 1px black; font-size:30px;';
-       console.info('%c📁 Loaded: '+file+'.js\n', style );
-       console.group("📣 Blooket Hacks By cph101 & CrazyH - Announcement 📣"); // Open Console Group
+       console.info('%c Loaded: '+file+'.js\n', style );
+       console.group("Blooket Hacks By cph101 & CrazyH - Announcement "); // Open Console Group
        var style = 'color: tomato; -webkit-text-stroke: 1px black; font-size:30px;';
-       console.info('%c👋🏻 Hi, We are Happy to have you as one of our users', style );
+       console.info('%c Hi, We are Happy to have you as one of our users', style );
        var style = 'color: blue; -webkit-text-stroke: 1px black; font-size:30px;';
-       console.info('%c⭐️ Please star our Github repo', style );
+       console.info('%c Please star our Github repo', style );
        if (state === true) {
            var style = 'color: green; -webkit-text-stroke: 1px black; font-size:30px;';
-           console.info('%c✅ Hack Successfully Enabled', style );
+           console.info('%c Hack Successfully Enabled', style );
        } else {
            var style = 'color: red; -webkit-text-stroke: 1px black; font-size:30px;';
-           console.info('%c❌ Failed To Enable Hack', style );
+           console.info('% To Enable Hack', style );
        }
        console.groupEnd(); // Close Console Group
        if (state != true) alert(state);
